@@ -1,5 +1,5 @@
 public class StackClient {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         MyStack stack = new MyStack(5);
 
         stack.push(5);

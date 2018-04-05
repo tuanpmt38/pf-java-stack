@@ -55,13 +55,11 @@ public class MyStack {
         index++;
     }
 
-    public int pop() {
+    public int pop() throws Exception {
         if (isEmpty()) {
-            throw new StackOverflowError("Stack is null.");
+            throw new Exception("Stack is null");
         }
-
         return arr[--index];
-
     }
 
     public int size() {
