@@ -57,7 +57,7 @@ public class MyStack {
 
     public int pop() {
         if (isEmpty()) {
-            throw new StackOverflowError("Stack is null");
+            throw new StackOverflowError("Stack is null.");
         }
 
         return arr[--index];
